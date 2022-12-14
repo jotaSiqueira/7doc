@@ -1,0 +1,26 @@
+@import url(main.css);
+@import url(vagas.css);
+
+:root {
+    --cor-fonte-padrao: #101828;
+    --vermelho: #8E2424;
+    --branco: #FFFFFF;
+    --cor-titulo-secundario: #667085;
+    --cor-fundo-secundario: #C3191908 3%;
+}
+
+body {
+    background-color: var(--branco);
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    font-family: "Inter";
+}
+
+h2 {
+    margin: 0 0 ;
+}

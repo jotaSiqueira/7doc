@@ -1,0 +1,39 @@
+@import url(style.css);
+
+.cabecalho {
+    padding: 1em 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho__logo {
+    display: flex;
+    text-decoration: none;
+}
+
+.cabecalho__imagem {
+    margin: 8px;
+}
+
+.cabecalho__titulo {
+    color: var(--cor-fonte-padrao);
+    font-size: 18px;
+}
+
+.menu__navegacao {
+    margin-right: 40em;
+}
+
+.menu__navegacao-titulo {
+    margin: 0.9em;
+    color: var(--cor-titulo-secundario);
+}
+
+.botao__cadastrar {
+    color: var(--branco);
+    background-color: var(--vermelho);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,39 @@
+.introducao {
+    display: block;
+    text-align: center;
+    padding: 7vw;
+    margin: 0 26%;
+}
+
+.introducao__sobre-nos {
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.introducao__titulo {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.estatisticas {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 18% 10% 18%;
+}
+
+.estatisticas__topico {
+    width: 25%;
+    margin: 0 15px;
+}
+
+.estatisticas__subtitulo {
+    font-weight: 900;
+}
+
+.estatisticas__titulo {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+

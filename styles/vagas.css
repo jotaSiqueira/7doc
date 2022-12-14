@@ -1,0 +1,11 @@
+.vagas {
+    
+}
+
+.vagas__aviso {
+    text-align: center;
+    color: var(--vermelho);
+    font-size: 14px;
+    background-color: var(--cor-titulo-secundario);
+    width: 60px;
+}
