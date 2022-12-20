@@ -1,11 +1,56 @@
 .vagas {
-    
+    display: block;
+    text-align: center;
 }
 
 .vagas__aviso {
-    text-align: center;
     color: var(--vermelho);
     font-size: 14px;
-    background-color: var(--cor-titulo-secundario);
-    width: 60px;
+    background-color: var(--cor-fundo-secundario);
+    width: 8em;
+    margin: auto;
+    border-radius: 15px;
+    padding: 2px;
+}
+
+.vagas__titulo {
+    font-size: 36px;
+    font-weight: 800;
+    margin: 1%;
+
+}
+
+.vagas__subtitulo {
+    font-size: 20px;
+    color: var(--cor-titulo-secundario);
+    font-weight: 400;
+}
+
+.banner {
+    margin: 3vw 0 2vw 0;
+    width: 100%;
+}
+
+.vagas__lista {
+    margin: 0  0 10% 20%;
+    text-align: start;
+}
+
+.container__vaga {
+    border: 0.1em solid #EAECF0;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 3% 0;
+    display: block;
+    max-width: 50vw;
+}
+
+.vaga__descricao {
+    margin-right: 5%;
+    font-weight: 500;
+    color: var(--cor-titulo-secundario);
+}
+
+.vagas__nome {
+    margin: 10% 0 3% 0;
 }

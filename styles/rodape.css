@@ -1,0 +1,30 @@
+.rodape {
+    margin-top: 10%;
+    background-color: var(--cor-fundo-secundario);
+    text-align: center;
+    padding: 7%;
+}
+
+.rodape__titulo {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.rodape__subtitulo {
+    font-size: 20px;
+}
+
+.campo-email {
+    padding: 0.7em;
+    width: 18vw;
+    border: 1px solid var(--cor-fundo-secundario);
+    margin: 7px;
+}
+
+.botao-cadastrar {
+    background-color: var(--vermelho);
+    color: var(--branco);
+    padding: 0.8em;
+    border: 0 solid;
+    border-radius: 5px;
+}

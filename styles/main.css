@@ -1,8 +1,12 @@
+main {
+    padding: 0 10% 0 10%;
+}
+
 .introducao {
     display: block;
     text-align: center;
     padding: 7vw;
-    margin: 0 26%;
+    margin: 0 10%;
 }
 
 .introducao__sobre-nos {
@@ -19,7 +23,7 @@
 .estatisticas {
     display: flex;
     justify-content: space-between;
-    padding: 0 18% 10% 18%;
+    padding: 0 0 20% 0;
 }
 
 .estatisticas__topico {

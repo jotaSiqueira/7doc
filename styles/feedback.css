@@ -1,0 +1,25 @@
+@import url(style.css);
+
+.feedback {
+    background-color: var(--cor-fundo-secundario);
+    padding: 5% 25%;
+    border-radius: 15px;
+}
+
+.feedback__titulo {
+    font-size: 14px;
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+.feedback__descricao {
+    margin-bottom: 2em;
+}
+
+.feedback__nome-colaborador {
+    font-weight: 900;
+}
+
+.feedback__cargo-colaborador {
+    font-size: 14px;
+}

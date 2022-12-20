@@ -1,5 +1,7 @@
 @import url(main.css);
 @import url(vagas.css);
+@import url(feedback.css);
+@import url(rodape.css);
 
 :root {
     --cor-fonte-padrao: #101828;
@@ -7,10 +9,12 @@
     --branco: #FFFFFF;
     --cor-titulo-secundario: #667085;
     --cor-fundo-secundario: #C3191908 3%;
+    --cor-fundo-secundario: rgba(142, 36, 36, 0.05);
 }
 
 body {
     background-color: var(--branco);
+    margin: 0 0;
 }
 
 a {
